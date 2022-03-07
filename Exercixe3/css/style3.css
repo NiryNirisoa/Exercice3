@@ -1,0 +1,92 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800|Raleway:400,200,100,300,500,600,700,800,900');
+body {
+    font-family: font-family, Open Sans, Arial, sans-serif;
+    font-family: Helvetica, Arial, sans-serif, 'Raleway';
+    font-family: Raleway, Arial, sans-serif;
+}
+
+h6 {
+    color: #FFFFFF;
+}
+
+.icone {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}
+
+.ralign {
+    text-align: left;
+    padding-left: 160px;
+}
+
+.ralign1 {
+    text-align: left;
+    padding-left: 150px;
+}
+
+.center {
+    text-align: center;
+}
+
+.reverse {
+    display: inline-flex;
+}
+
+.icone img {
+    padding: 2%;
+}
+
+.padb {
+    padding-bottom: 2%;
+}
+
+.padt {
+    padding-top: 2%;
+}
+
+.left {
+    text-align: left;
+    padding-left: 20%;
+}
+
+.ralign2 {
+    padding-left: 10%;
+}
+
+@media (max-width:720px) {
+    .right {
+        text-align: center;
+    }
+    .Center {
+        text-align: center;
+    }
+    .left {
+        text-align: center;
+        padding-left: 0%;
+    }
+    .reverse {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .displaying {
+        display: none;
+    }
+    .ralign {
+        text-align: center;
+        padding-left: 0px;
+    }
+    .ralign1 {
+        padding: 0px;
+        text-align: center;
+    }
+    .ralign2 {
+        padding-left: 0%;
+        text-align: center;
+    }
+    .ralign3 {
+        text-align: center;
+    }
+}
